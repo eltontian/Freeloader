@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435CC3E1A86ADDF00F3AB38 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435CC3D1A86ADDF00F3AB38 /* FeedController.swift */; };
 		9A587F7B62FB3256E14F61A2 /* libPods-Freeloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37327BD1C75125FBE30BDE27 /* libPods-Freeloader.a */; };
 		FEA415531A85F55B0027CA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA415521A85F55B0027CA9A /* AppDelegate.swift */; };
 		FEA415551A85F55B0027CA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA415541A85F55B0027CA9A /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0435CC3D1A86ADDF00F3AB38 /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		0D1B93F02052A9493EAB1DDB /* Pods-Freeloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freeloader/Pods-Freeloader.release.xcconfig"; sourceTree = "<group>"; };
 		37327BD1C75125FBE30BDE27 /* libPods-Freeloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Freeloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D133ABB9F2CF78E9CE084137 /* Pods-Freeloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freeloader/Pods-Freeloader.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				FEA415521A85F55B0027CA9A /* AppDelegate.swift */,
 				FEA415541A85F55B0027CA9A /* ViewController.swift */,
 				FEA415561A85F55B0027CA9A /* Main.storyboard */,
+				0435CC3D1A86ADDF00F3AB38 /* FeedController.swift */,
 				FEA415591A85F55B0027CA9A /* Images.xcassets */,
 				FEA4155B1A85F55B0027CA9A /* LaunchScreen.xib */,
 				FEA415501A85F55B0027CA9A /* Supporting Files */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA415551A85F55B0027CA9A /* ViewController.swift in Sources */,
+				0435CC3E1A86ADDF00F3AB38 /* FeedController.swift in Sources */,
 				FEA415531A85F55B0027CA9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
