@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A587F7B62FB3256E14F61A2 /* libPods-Freeloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37327BD1C75125FBE30BDE27 /* libPods-Freeloader.a */; };
 		FEA415531A85F55B0027CA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA415521A85F55B0027CA9A /* AppDelegate.swift */; };
 		FEA415551A85F55B0027CA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA415541A85F55B0027CA9A /* ViewController.swift */; };
 		FEA415581A85F55B0027CA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA415561A85F55B0027CA9A /* Main.storyboard */; };
@@ -26,6 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1B93F02052A9493EAB1DDB /* Pods-Freeloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freeloader/Pods-Freeloader.release.xcconfig"; sourceTree = "<group>"; };
+		37327BD1C75125FBE30BDE27 /* libPods-Freeloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Freeloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D133ABB9F2CF78E9CE084137 /* Pods-Freeloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freeloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freeloader/Pods-Freeloader.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5D9C001A85FF7000999A84 /* Freeloader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Freeloader-Bridging-Header.h"; sourceTree = "<group>"; };
 		FEA4154D1A85F55B0027CA9A /* Freeloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freeloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA415511A85F55B0027CA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA415521A85F55B0027CA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A587F7B62FB3256E14F61A2 /* libPods-Freeloader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +62,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8789E91EAD8B28A42DAA46D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37327BD1C75125FBE30BDE27 /* libPods-Freeloader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BF27EB30F6C2D24DF70FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D133ABB9F2CF78E9CE084137 /* Pods-Freeloader.debug.xcconfig */,
+				0D1B93F02052A9493EAB1DDB /* Pods-Freeloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FEA415441A85F55B0027CA9A = {
 			isa = PBXGroup;
 			children = (
 				FEA4154F1A85F55B0027CA9A /* Freeloader */,
 				FEA415651A85F55B0027CA9A /* FreeloaderTests */,
 				FEA4154E1A85F55B0027CA9A /* Products */,
+				E6BF27EB30F6C2D24DF70FD2 /* Pods */,
+				8789E91EAD8B28A42DAA46D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +108,7 @@
 				FEA415591A85F55B0027CA9A /* Images.xcassets */,
 				FEA4155B1A85F55B0027CA9A /* LaunchScreen.xib */,
 				FEA415501A85F55B0027CA9A /* Supporting Files */,
+				FE5D9C001A85FF7000999A84 /* Freeloader-Bridging-Header.h */,
 			);
 			path = Freeloader;
 			sourceTree = "<group>";
@@ -119,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEA4156C1A85F55B0027CA9A /* Build configuration list for PBXNativeTarget "Freeloader" */;
 			buildPhases = (
+				5F6D6FED9212C56429580822 /* Check Pods Manifest.lock */,
 				FEA415491A85F55B0027CA9A /* Sources */,
 				FEA4154A1A85F55B0027CA9A /* Frameworks */,
 				FEA4154B1A85F55B0027CA9A /* Resources */,
+				38F1D55797E67142D6593CEC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +234,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38F1D55797E67142D6593CEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freeloader/Pods-Freeloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6D6FED9212C56429580822 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEA415491A85F55B0027CA9A /* Sources */ = {
@@ -334,21 +395,28 @@
 		};
 		FEA4156D1A85F55B0027CA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D133ABB9F2CF78E9CE084137 /* Pods-Freeloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Freeloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Freeloader/Freeloader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FEA4156E1A85F55B0027CA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1B93F02052A9493EAB1DDB /* Pods-Freeloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Freeloader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Freeloader/Freeloader-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +473,7 @@
 				FEA4156E1A85F55B0027CA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEA4156F1A85F55B0027CA9A /* Build configuration list for PBXNativeTarget "FreeloaderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +482,7 @@
 				FEA415711A85F55B0027CA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
