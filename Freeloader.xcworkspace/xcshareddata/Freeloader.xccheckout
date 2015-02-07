@@ -10,6 +10,8 @@
 	<string>Freeloader</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>2A7DAA33756F190C53F7DF792DBC5106B21D2FAE</key>
+		<string>https://github.com/eltontian/Freeloader.git</string>
 		<key>66921F1EA7D1956E7F6DC9848726528F6C94C9BB</key>
 		<string>https://github.com/eltontian/Freeloader.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>Freeloader.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>2A7DAA33756F190C53F7DF792DBC5106B21D2FAE</key>
+		<string>../..</string>
 		<key>66921F1EA7D1956E7F6DC9848726528F6C94C9BB</key>
 		<string>..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>66921F1EA7D1956E7F6DC9848726528F6C94C9BB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A7DAA33756F190C53F7DF792DBC5106B21D2FAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

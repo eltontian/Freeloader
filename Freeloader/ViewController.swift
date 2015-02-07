@@ -7,12 +7,12 @@
 //
 
 import UIKit
-
-import UIKit
+import Parse
 
 class ViewController: UIViewController, FBLoginViewDelegate {
     
     @IBOutlet var fbLoginView : FBLoginView!
+    private var user:User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,18 @@ class ViewController: UIViewController, FBLoginViewDelegate {
         self.fbLoginView.delegate = self
         self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
         
+        var testObject = PFObject(className:"PFObject")
+        testObject["name"] = "elton"
+        testObject["score"] = 0
+        testObject.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError!) -> Void in
+            if(success){
+                print("success")
+            }
+            else{
+                print("fuck")
+            }
+        }
     }
     
     // Facebook Delegate Methods
@@ -35,7 +47,7 @@ class ViewController: UIViewController, FBLoginViewDelegate {
         println("User Name: \(user.name)")
         var userEmail = user.objectForKey("email") as String
         println("User Email: \(userEmail)")
-        
+        //sendInitialData("\(user.objectID)","\(user.name)", "\(userEmail)")
         //segue
         performSegueWithIdentifier("logSegue", sender: self)
     }

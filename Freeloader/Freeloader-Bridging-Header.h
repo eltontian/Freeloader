@@ -4,3 +4,4 @@
 
 #import <FacebookSDK/FacebookSDK.h>
 #import <Firebase/Firebase.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Freeloader/ViewController.swift"
+            timestampString = "445039418.575547"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Freeloader.ViewController.fbLoginView.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBLoginView&gt;"
+                  moduleName = "Freeloader"
+                  urlString = "file:///Users/ahoang/Desktop/Xcode/freeLoadr/Freeloader/Freeloader/ViewController.swift"
+                  timestampString = "445038898.212187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Freeloader.ViewController.fbLoginView.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.FBLoginView&gt;"
+                  moduleName = "Freeloader"
+                  urlString = "file:///Users/ahoang/Desktop/Xcode/freeLoadr/Freeloader/Freeloader/ViewController.swift"
+                  timestampString = "445038898.213616"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Freeloader.ViewController.init (Freeloader.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Freeloader.ViewController"
+                  moduleName = "Freeloader"
+                  urlString = "file:///Users/ahoang/Desktop/Xcode/freeLoadr/Freeloader/Freeloader/ViewController.swift"
+                  timestampString = "445038898.213845"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Freeloader.ViewController.init (Freeloader.ViewController.Type)() -&gt; Freeloader.ViewController"
+                  moduleName = "Freeloader"
+                  urlString = "file:///Users/ahoang/Desktop/Xcode/freeLoadr/Freeloader/Freeloader/ViewController.swift"
+                  timestampString = "445038898.21406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Freeloader.ViewController.init (Freeloader.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Freeloader.ViewController"
+                  moduleName = "Freeloader"
+                  urlString = "file:///Users/ahoang/Desktop/Xcode/freeLoadr/Freeloader/Freeloader/ViewController.swift"
+                  timestampString = "445038898.214263"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
