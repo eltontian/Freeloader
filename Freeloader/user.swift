@@ -9,7 +9,8 @@
 import Foundation
 
 class User {
-    var personId: Int16
+    private var personId: Int16
+    //private var email:String
     private var score: Int16
     private var increment: Int16
     private var totalDebt:Double
