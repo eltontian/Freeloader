@@ -1,0 +1,68 @@
+[
+  {
+  "users":[
+    {
+      "user_id": 123,
+      "user_name": "Andrew Hoang",
+      "credit_score": 700,
+      "debt_outstanding": 0,
+      "loans_outstanding": 20,
+      "profile_picture": "yolo"
+      },
+    {
+      "user_id": 124,
+      "user_name": "Kevin Tian",
+      "credit_score": 100,
+      "debt_outstanding": 75,
+      "loans_outstanding": 0,
+      "profile_picture": "yolo"
+    },
+    {
+      "user_id": 125,
+      "user_name": "Elton Tian",
+      "credit_score": 650,
+      "debt_outstanding": 10,
+      "loans_outstanding": 35,
+      "profile_picture": "yolo"
+    },
+    {
+      "user_id": 126,
+      "user_name": "Will Snyder",
+      "credit_score": 750,
+      "debt_outstanding": 0,
+      "loans_outstanding": 30,
+      "profile_picture": "yolo"
+    }    
+  ],
+  "transactions":[
+    {
+      "loaner_id": 125,
+      "borrower_id": 124,
+      "amount": 35,
+      "comment": "social dues",
+      "date": "2014-01-09"
+    },
+    {
+      "loaner_id": 126,
+      "borrower_id": 124,
+      "amount": 30,
+      "comment": "social dues",
+      "date": "2014-01-10"
+    },
+    {
+      "loaner_id": 123,
+      "borrower_id": 124,
+      "amount": 10,
+      "comment": "pizza, pay me back...",
+      "date": "2014-10-11"
+    },
+    {
+      "loaner_id": 123,
+      "borrower_id": 125,
+      "amount": 10,
+      "comment": "really expensive froyo",
+      "date": "2015-01-01"
+    },
+  ]
+  }
+]
